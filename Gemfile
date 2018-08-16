@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.10'
+gem 'pg', '~> 0.15'
 gem 'mysql2', '>= 0.3.13', '< 0.5'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -23,3 +24,4 @@ group :development do
 end
 
   gem 'devise',  '~> 4.2'
+  gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
