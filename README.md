@@ -16,3 +16,4 @@
 
 ## UI:
     - Bootstrap -> formatting
+    - Add full_name for users
