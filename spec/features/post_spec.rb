@@ -1,11 +1,10 @@
-# spec/features/static_spec.rb
 
 require 'rails_helper'
 
 describe 'navigate' do
 
   before do
-    @user = User.create(email: "test2@test.com", password: "password", first_name: "John", last_name: "Snow")
+    @user = FactoryGirl.create(:user)
     login_as(@user, :scope => :user)
   end
 
@@ -27,11 +26,11 @@ describe 'navigate' do
   #
   it 'has a list of posts' do
 
-    post1 = @post = Post.create(date:Date.today, rationale: "Post1", user_id: @user.id)
-    post2 = @post = Post.create(date:Date.today, rationale: "Post2", user_id: @user.id)
+    post1 = FactoryGirl.build_stubbed(:post)
+    post2 = FactoryGirl.build_stubbed(:second_post)
 
     visit posts_path
-    expect(page).to have_content(/Post1|Post2/)
+    expect(page).to have_content(/Rationale|content/)
   end
 end
 
@@ -53,22 +52,11 @@ describe 'creation' do
     expect(page).to have_content("Some rationale")
   end
 
-<<<<<<< HEAD
-  it 'will have a user associated with it' do
-    fill_in 'post[date]', with: Date.today
-    fill_in 'post[rationale]', with: 'User Association'
-    click_on "Save"
-
-    expect(User.last.post.last.rationale).to eq("User Association")
-  end
-=======
   #it 'will have a user associated with it' do
   #  fill_in 'post[date]', with: Date.today
   #  fill_in 'post[rationale]', with: "User Association"
   #  click_on "Save"
-
-   # expect(User.last.Posts.last.rationale).to eq("User Association")
+  # expect(User.last.Posts.last.rationale).to eq("User Association")
   #end
->>>>>>> 3412278934c96bb744a24fdfc0be0426e685c786
 
 end

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="Local">
+<dataSource name="overtime_development@localhost">
   <database-model serializer="dbm" rdbms="MYSQL" format-version="4.10">
     <root id="1">
       <ServerVersion>5.7.21</ServerVersion>
@@ -8,8 +8,6 @@
       <DefaultCasing>mixed/mixed</DefaultCasing>
     </root>
     <schema id="2" parent="1" name="Overtime_test">
-      <Current>1</Current>
-      <Visible>1</Visible>
       <Collation>utf8_unicode_ci</Collation>
     </schema>
     <schema id="3" parent="1" name="canvas_development">
@@ -37,6 +35,8 @@
       <Collation>utf8_general_ci</Collation>
     </schema>
     <schema id="11" parent="1" name="overtime_development">
+      <Current>1</Current>
+      <Visible>1</Visible>
       <Collation>utf8_general_ci</Collation>
     </schema>
     <schema id="12" parent="1" name="pelican_development">
@@ -942,9 +942,9 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="239" parent="2" name="posts"/>
-    <table id="240" parent="2" name="schema_migrations"/>
-    <table id="241" parent="2" name="users"/>
+    <table id="239" parent="11" name="posts"/>
+    <table id="240" parent="11" name="schema_migrations"/>
+    <table id="241" parent="11" name="users"/>
     <column id="242" parent="239" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
@@ -990,7 +990,7 @@
     </key>
     <foreign-key id="250" parent="239" name="fk_rails_5b5ddfd518">
       <ColNames>user_id</ColNames>
-      <RefSchemaName>overtime_test</RefSchemaName>
+      <RefSchemaName>overtime_development</RefSchemaName>
       <RefTableName>users</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
