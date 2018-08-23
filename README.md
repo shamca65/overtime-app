@@ -5,7 +5,8 @@
 ## Models
     X Post -> date:date rationale:text
     X User -> Devise
-    X AdminUser -> STI from User on 'type' field 
+    X AdminUser -> STI from User on 'type' field
+    - Sorting 
     
 ## Features
     - Approval workflow
@@ -17,3 +18,4 @@
 ## UI:
     - Bootstrap -> formatting
     - Add full_name for users
+    - Warning notice for deletes

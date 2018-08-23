@@ -32,7 +32,25 @@ describe 'navigate' do
   end
 end
 
-describe 'creating a post ' do
+describe '#new' do
+  it 'has a link from the home page' do
+    visit root_path
+    click_link("new_post_from_nav")
+    expect(page.status_code).to eq(200)
+  end
+end
+
+describe '#delete' do
+  it 'can delete a post' do
+    @post = FactoryBot.create(:post)
+    visit posts_path
+
+    click_link("delete_post_#{@post.id}_from_index")
+    expect(page.status_code).to eq(200)
+  end
+end
+
+describe '#create' do
 
   before do
     visit new_post_path
@@ -42,14 +60,14 @@ describe 'creating a post ' do
     expect(page.status_code).to eq(200)
   end
 
-  it 'can be created from new form page' do
+  it 'is successful from new form page' do
     fill_in 'post[date]', with: Date.today
     fill_in 'post[rationale]', with: "Some rationale"
     click_on "Save"
     expect(page).to have_content("Some rationale")
   end
 
-  it 'will have a user associated with it' do
+  it 'has a user associated with it' do
     fill_in 'post[date]', with: Date.today
     fill_in 'post[rationale]', with: "Some rationale"
     click_on "Save"
@@ -57,19 +75,19 @@ describe 'creating a post ' do
   end
 end
 
-describe 'editing a post' do
+describe '#edit' do
 
   before do
     @post = FactoryBot.create(:post)
   end
 
-  it 'can be accessed by clicking the edit button on the index page' do
+  it 'can be accessed via index page' do
     visit posts_path
     click_link("edit_#{@post.id}") # id of link
     expect(page.status_code).to eq(200)
   end
 
-  it 'is possible' do
+  it 'can modify a post' do
     visit edit_post_path(@post)
 
     fill_in 'post[date]', with: Date.today
