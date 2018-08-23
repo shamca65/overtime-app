@@ -1,12 +1,12 @@
 
-FactoryGirl.define do
+FactoryBot.define do
 
   sequence :email do |n|
     "test#{n}@example.com"
   end
 
   factory :user do
-    first_name 'John'
+    first_name 'Jon'
     last_name 'Snow'
     email {generate :email}
     password 'password'
