@@ -16,6 +16,10 @@
     - Needs to be documented if employee did not log the OT
 
 ## UI:
-    - Bootstrap -> formatting
-    - Add full_name for users
-    - Warning notice for deletes
+    x Bootstrap -> form formatting
+    - Icons from Awesome
+    X Add full_name for users
+    X Warning notice for deletes
+ 
+## Refactoring
+    - Refactor user association integration test in post_spec
