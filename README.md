@@ -9,6 +9,8 @@
     - Sorting 
     
 ## Features
+    - Block non-admin & guest users (Administrate)
+        - fine tune search approach
     - Approval workflow
     - SMS Sending -> link to approval or overtime input
     - Administrate admin dashboard
