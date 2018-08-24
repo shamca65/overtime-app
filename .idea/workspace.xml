@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5445157e-2785-43d0-b81b-774c1adc867f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Overtime.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Overtime.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboards/admin_user_dashboard.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboards/admin_user_dashboard.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboards/post_dashboard.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboards/post_dashboard.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboards/user_dashboard.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboards/user_dashboard.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -62,7 +59,7 @@
           <entry key="erb" value="1404" />
           <entry key="js" value="22" />
           <entry key="md" value="236" />
-          <entry key="rb" value="1567" />
+          <entry key="rb" value="1674" />
           <entry key="scss" value="34" />
           <entry key="txt" value="21" />
           <entry key="yml" value="4" />
@@ -74,7 +71,7 @@
           <entry key="Markdown" value="236" />
           <entry key="PLAIN_TEXT" value="21" />
           <entry key="RHTML" value="1404" />
-          <entry key="Ruby" value="1642" />
+          <entry key="Ruby" value="1749" />
           <entry key="SCSS" value="34" />
           <entry key="YAML" value="4" />
         </counts>
@@ -85,7 +82,7 @@
           <entry key="erb" value="22" />
           <entry key="js" value="1" />
           <entry key="md" value="6" />
-          <entry key="rb" value="45" />
+          <entry key="rb" value="46" />
           <entry key="scss" value="1" />
           <entry key="sql" value="1" />
           <entry key="yml" value="2" />
@@ -96,7 +93,7 @@
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="6" />
           <entry key="RHTML" value="22" />
-          <entry key="Ruby" value="47" />
+          <entry key="Ruby" value="48" />
           <entry key="SCSS" value="1" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="2" />
@@ -158,19 +155,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/dashboards/admin_user_dashboard.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+            <state relative-caret-position="382">
+              <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/dashboards/user_dashboard.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-865" />
+            <state relative-caret-position="200">
+              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/dashboards/post_dashboard.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -221,6 +229,8 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/views/shared/_nav.html.erb" />
+        <option value="$PROJECT_DIR$/app/dashboards/user_dashboard.rb" />
+        <option value="$PROJECT_DIR$/app/dashboards/post_dashboard.rb" />
         <option value="$PROJECT_DIR$/app/dashboards/admin_user_dashboard.rb" />
       </list>
     </option>
@@ -506,12 +516,12 @@
       <workItem from="1534964317323" duration="1088000" />
       <workItem from="1534966432554" duration="1727000" />
       <workItem from="1535034361365" duration="8203000" />
-      <workItem from="1535117667855" duration="6176000" />
+      <workItem from="1535117667855" duration="7774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32535000" />
+    <option name="totallyTimeSpent" value="34133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="103" y="23" width="1681" height="961" extended-state="0" />
@@ -766,16 +776,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/dashboards/admin_user_dashboard.rb">
+    <entry file="file://$PROJECT_DIR$/app/dashboards/post_dashboard.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        <state relative-caret-position="420">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/dashboards/user_dashboard.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-865" />
+        <state relative-caret-position="200">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dashboards/admin_user_dashboard.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        </state>
       </provider>
     </entry>
   </component>
