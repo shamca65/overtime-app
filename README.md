@@ -31,6 +31,8 @@
     - Icons from Awesome
     X Add full_name for users
     X Warning notice for deletes
+   
  
 ## Refactoring
     - Refactor user association integration test in post_spec
+    - Refactor forms for admin user with status
