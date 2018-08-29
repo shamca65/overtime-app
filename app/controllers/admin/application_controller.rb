@@ -6,7 +6,7 @@
 # you're free to overwrite the RESTful controller actions.
 module Admin
   def self.admin_types
-    ['Adminuser']
+    ['AdminUser']
   end
 
   class ApplicationController < Administrate::ApplicationController
