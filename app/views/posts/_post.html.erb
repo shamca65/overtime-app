@@ -9,7 +9,7 @@
     <%= post.user.full_name %>
   </td>
   <td>
-    <%= truncate(post.rationale, length: 5 ) %>
+    <%= truncate(post.rationale, length: 15 ) %>
   </td>
   <td >
     <%= link_to 'Edit', edit_post_path(post), \

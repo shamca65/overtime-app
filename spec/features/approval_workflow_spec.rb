@@ -16,7 +16,7 @@ describe 'Navigate' do
 
     it 'has a status that can be edited on the  form by an admin' do
 
-      choose 'post_status_approved'
+      choose('post_status_approved')
       click_on 'Save'
       expect(@post.reload.status).to eq('approved')
       # reload after a database change to avoid cache related error
@@ -25,7 +25,7 @@ describe 'Navigate' do
 
     it 'cannot be edited by a non-admin' do
       logout(:user)
-      @user = FactoryBot.create(:user)
+      user = FactoryBot.create(:user)
       login_as(user, :scope => :user)
 
       visit edit_post_path(@post)
