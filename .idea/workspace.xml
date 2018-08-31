@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5445157e-2785-43d0-b81b-774c1adc867f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/spec/features/post_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/post_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/policies/post_policy.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/policies/post_policy.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/_post.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/_post.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/features/approval_workflow_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/approval_workflow_spec.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -54,10 +56,10 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Gemfile" value="98" />
-          <entry key="erb" value="1936" />
+          <entry key="erb" value="1958" />
           <entry key="js" value="22" />
           <entry key="md" value="298" />
-          <entry key="rb" value="4412" />
+          <entry key="rb" value="4948" />
           <entry key="scss" value="34" />
           <entry key="txt" value="21" />
           <entry key="yml" value="4" />
@@ -68,8 +70,8 @@
           <entry key="JavaScript" value="22" />
           <entry key="Markdown" value="298" />
           <entry key="PLAIN_TEXT" value="21" />
-          <entry key="RHTML" value="1936" />
-          <entry key="Ruby" value="4510" />
+          <entry key="RHTML" value="1958" />
+          <entry key="Ruby" value="5046" />
           <entry key="SCSS" value="34" />
           <entry key="YAML" value="4" />
         </counts>
@@ -77,11 +79,11 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Gemfile" value="4" />
-          <entry key="erb" value="34" />
+          <entry key="erb" value="36" />
           <entry key="js" value="1" />
           <entry key="md" value="8" />
           <entry key="pid" value="1" />
-          <entry key="rb" value="115" />
+          <entry key="rb" value="117" />
           <entry key="scss" value="1" />
           <entry key="sql" value="1" />
           <entry key="yml" value="3" />
@@ -92,8 +94,8 @@
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="8" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="RHTML" value="34" />
-          <entry key="Ruby" value="119" />
+          <entry key="RHTML" value="36" />
+          <entry key="Ruby" value="121" />
           <entry key="SCSS" value="1" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="3" />
@@ -140,11 +142,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/features/post_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="91" column="44" lean-forward="true" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
+            <state relative-caret-position="125">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/features/approval_workflow_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/_post.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/policies/post_policy.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -155,7 +193,11 @@
     <findStrings>
       <find>DatabaseCleaner</find>
       <find>&lt;%= link_to &quot;Sign up&quot;, new_registration_path(resource_name) %&gt;&lt;br /&gt;</find>
+      <find>Girl</find>
     </findStrings>
+    <replaceStrings>
+      <replace>Bot</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -185,11 +227,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/views/posts/_form.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/spec/features/approval_workflow_spec.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/app/views/posts/_post.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/policies/post_policy.rb" />
         <option value="$PROJECT_DIR$/app/policies/application_policy.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_alerts.html.erb" />
@@ -200,6 +239,9 @@
         <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/post.rb" />
         <option value="$PROJECT_DIR$/spec/features/post_spec.rb" />
+        <option value="$PROJECT_DIR$/app/policies/post_policy.rb" />
+        <option value="$PROJECT_DIR$/spec/features/approval_workflow_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/posts/_post.html.erb" />
       </list>
     </option>
   </component>
@@ -296,6 +338,25 @@
               <item name="Overtime" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Overtime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Overtime" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="policies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Overtime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Overtime" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Overtime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Overtime" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Overtime" type="b2602c69:ProjectViewProjectNode" />
@@ -471,18 +532,18 @@
       <workItem from="1535636411963" duration="847000" />
       <workItem from="1535651149955" duration="9000" />
       <workItem from="1535651184509" duration="7911000" />
-      <workItem from="1535724086026" duration="6640000" />
+      <workItem from="1535724086026" duration="8722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66774000" />
+    <option name="totallyTimeSpent" value="68856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1915" y="23" width="1914" height="1037" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15277778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15277778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -502,7 +563,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.16932908" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32946917" />
-      <window_info active="true" anchor="right" id="Terminal" order="5" side_tool="true" visible="true" weight="0.26014957" />
+      <window_info anchor="right" id="Terminal" order="5" side_tool="true" visible="true" weight="0.32745728" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -654,27 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/_post.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/approval_workflow_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -768,13 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/policies/post_policy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
@@ -806,10 +839,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/policies/post_policy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/post_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="91" column="44" lean-forward="true" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
+        <state relative-caret-position="125">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/approval_workflow_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/_post.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
