@@ -12,14 +12,14 @@
     <%= truncate(post.rationale, length: 15 ) %>
   </td>
   <td>
-    <%= post.status %>
+    <%= status_label(post.status) %>
   </td>
   <td >
     <%= link_to 'Edit', edit_post_path(post), \
-      class: 'btn btn-mini btn-info',id: "edit_#{post.id}" %>
+      class: 'btn btn-sm btn-info',id: "edit_#{post.id}" %>
   </td>
   <td >
     <%= link_to 'Delete', post_path(post), method: :delete,\
-      class: 'btn btn-mini btn-danger', data: {confirm: 'Are you sure?'}, id: "delete_post_#{post.id}_from_index" %>
+      class: 'btn btn-sm btn-danger', data: {confirm: 'Are you sure?'}, id: "delete_post_#{post.id}_from_index" %>
   </td>
 </tr>
