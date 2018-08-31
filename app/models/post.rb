@@ -4,4 +4,8 @@ class Post < ActiveRecord::Base
   belongs_to :user
   validates_presence_of :date, :rationale
 
+  # scopes can be chained in method calls!
+  #
+  scope :posts_by, ->(user) {where(user_id = user.id)}
+
 end

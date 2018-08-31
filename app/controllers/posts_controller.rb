@@ -2,7 +2,7 @@ class PostsController < ApplicationController
   before_action :set_post, only:[:show, :edit, :update, :destroy] #passes in id beforehand
 
   def index
-    @posts = Post.all
+    @posts = Post.posts_by current_user
   end
 
   def new

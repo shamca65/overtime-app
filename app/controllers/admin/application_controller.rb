@@ -5,7 +5,7 @@
 # If you want to add pagination or other controller-level concerns,
 # you're free to overwrite the RESTful controller actions.
 module Admin
-  def admin_types
+  def self.admin_types
     ['AdminUser']
   end
 

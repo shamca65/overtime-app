@@ -25,6 +25,18 @@ describe 'navigate' do
       visit posts_path
       expect(page).to have_content(/Rationale|content/)
     end
+
+    it 'has a scope of only post creators can see their posts' do
+      post1 = Post.create(date: Date.today, rationale: 'some text', user_id: @user.id)
+      post2 = Post.create(date: Date.today, rationale: 'some text', user_id: @user.id)
+      #
+      other_user = User.create(first_name: 'non', last_name: 'authorized', email: 'nonauth@test.com',\
+        password: 'password', password_confirmation: 'password')
+      post_from_other_user = Post.create(date: Date.today, rationale: "Invisible", user_id: other_user.id)
+
+      visit posts_path
+      expect(page).to have_content("Invisible")
+    end
   end
 
   describe 'new' do
