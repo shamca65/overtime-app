@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.10'
-#gem 'pg', '~> 0.15'
 gem 'mysql2', '>= 0.3.13', '< 0.5'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -30,3 +29,4 @@ gem 'gritter', '1.2.0'
 gem 'administrate', "~> 0.2.2"
 gem 'bourbon'
 gem 'pundit', '~> 1.1'
+gem 'puma', '~> 3.4'
