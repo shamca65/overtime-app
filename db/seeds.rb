@@ -3,7 +3,7 @@
 puts '1 user created'
 
 5.times do |post|
-  Post.create(date: Date.today, rationale: "#{post} - reg user rationale content", user_id: @user.id)
+  Post.create(date: Date.today, rationale: "#{post} - reg user rationale content", user_id: @user.id, overtime_request: 2.5)
 end
 
 puts "5 regular user posts have been created"
