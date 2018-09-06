@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5445157e-2785-43d0-b81b-774c1adc867f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboards/admin_user_dashboard.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboards/admin_user_dashboard.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboards/user_dashboard.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboards/user_dashboard.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/posts/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/factories/users.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/users.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/features/post_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/post_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/features/user_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/user_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -97,7 +88,7 @@
           <entry key="md" value="9" />
           <entry key="pid" value="1" />
           <entry key="rake" value="2" />
-          <entry key="rb" value="150" />
+          <entry key="rb" value="151" />
           <entry key="scss" value="2" />
           <entry key="sql" value="1" />
           <entry key="yml" value="3" />
@@ -109,7 +100,7 @@
           <entry key="Markdown" value="9" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="RHTML" value="44" />
-          <entry key="Ruby" value="158" />
+          <entry key="Ruby" value="159" />
           <entry key="SCSS" value="2" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="3" />
@@ -166,10 +157,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/dashboards/admin_user_dashboard.rb">
+        <entry file="file://$PROJECT_DIR$/app/dashboards/user_dashboard.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+            <state relative-caret-position="391">
+              <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -250,9 +241,9 @@
         <option value="$PROJECT_DIR$/spec/factories/users.rb" />
         <option value="$PROJECT_DIR$/spec/features/user_spec.rb" />
         <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
-        <option value="$PROJECT_DIR$/app/dashboards/user_dashboard.rb" />
         <option value="$PROJECT_DIR$/app/views/posts/show.html.erb" />
         <option value="$PROJECT_DIR$/app/dashboards/admin_user_dashboard.rb" />
+        <option value="$PROJECT_DIR$/app/dashboards/user_dashboard.rb" />
       </list>
     </option>
   </component>
@@ -529,18 +520,18 @@
       <workItem from="1536085454912" duration="5182000" />
       <workItem from="1536166000868" duration="223000" />
       <workItem from="1536246248970" duration="5228000" />
-      <workItem from="1536258592941" duration="2622000" />
+      <workItem from="1536258592941" duration="2905000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83293000" />
+    <option name="totallyTimeSpent" value="83576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="23" width="1920" height="961" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16400427" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16400427" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -553,7 +544,7 @@
       <window_info anchor="bottom" id="Structure" order="8" sideWeight="0.171459" visible="true" weight="0.43087557" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.828541" side_tool="true" visible="true" weight="0.43087557" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.828541" side_tool="true" visible="true" weight="0.43087557" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50106496" side_tool="true" weight="0.328341" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32987553" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -875,10 +866,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/dashboards/user_dashboard.rb">
+    <entry file="file://$PROJECT_DIR$/app/dashboards/admin_user_dashboard.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        <state relative-caret-position="656">
+          <caret line="77" column="3" selection-start-line="77" selection-start-column="3" selection-end-line="77" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -889,10 +880,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/dashboards/admin_user_dashboard.rb">
+    <entry file="file://$PROJECT_DIR$/app/dashboards/user_dashboard.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+        <state relative-caret-position="391">
+          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
         </state>
       </provider>
     </entry>
