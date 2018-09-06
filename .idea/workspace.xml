@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5445157e-2785-43d0-b81b-774c1adc867f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/sms_tool.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/fake_sms.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -61,7 +61,7 @@
           <entry key="gitignore" value="6" />
           <entry key="js" value="22" />
           <entry key="md" value="309" />
-          <entry key="rb" value="5586" />
+          <entry key="rb" value="5878" />
           <entry key="scss" value="114" />
           <entry key="txt" value="21" />
           <entry key="yml" value="4" />
@@ -73,7 +73,7 @@
           <entry key="Markdown" value="309" />
           <entry key="PLAIN_TEXT" value="77" />
           <entry key="RHTML" value="2240" />
-          <entry key="Ruby" value="5803" />
+          <entry key="Ruby" value="6095" />
           <entry key="SCSS" value="114" />
           <entry key="YAML" value="4" />
         </counts>
@@ -87,7 +87,7 @@
           <entry key="js" value="1" />
           <entry key="md" value="9" />
           <entry key="pid" value="1" />
-          <entry key="rb" value="132" />
+          <entry key="rb" value="134" />
           <entry key="scss" value="2" />
           <entry key="sql" value="1" />
           <entry key="yml" value="3" />
@@ -99,7 +99,7 @@
           <entry key="Markdown" value="9" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="RHTML" value="42" />
-          <entry key="Ruby" value="138" />
+          <entry key="Ruby" value="140" />
           <entry key="SCSS" value="2" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="3" />
@@ -173,11 +173,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/sms_tool.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
               <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/fake_sms.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -275,6 +293,8 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/lib/sms_tool.rb" />
+        <option value="$PROJECT_DIR$/lib/fake_sms.rb" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
       </list>
     </option>
   </component>
@@ -375,12 +395,12 @@
             <path>
               <item name="Overtime" type="b2602c69:ProjectViewProjectNode" />
               <item name="Overtime" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Overtime" type="b2602c69:ProjectViewProjectNode" />
               <item name="Overtime" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Overtime" type="b2602c69:ProjectViewProjectNode" />
@@ -565,23 +585,22 @@
       <workItem from="1536080415548" duration="35000" />
       <workItem from="1536085454912" duration="5182000" />
       <workItem from="1536166000868" duration="223000" />
-      <workItem from="1536246248970" duration="2138000" />
+      <workItem from="1536246248970" duration="3427000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77581000" />
+    <option name="totallyTimeSpent" value="78870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="23" width="1920" height="961" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15921193" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49893504" visible="true" weight="0.328341" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893504" visible="true" weight="0.328341" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -596,7 +615,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.16932908" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32946917" />
-      <window_info anchor="right" id="Terminal" order="5" side_tool="true" visible="true" weight="0.3567625" />
+      <window_info active="true" anchor="right" id="Terminal" order="5" side_tool="true" visible="true" weight="0.48402557" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,20 +625,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -925,10 +930,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/sms_tool.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/fake_sms.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
         </state>
       </provider>
     </entry>
