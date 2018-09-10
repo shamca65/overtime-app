@@ -7,10 +7,10 @@
     X User -> Devise
     X AdminUser -> STI from User on 'type' field
     - Sorting 
-    - Create post status 
+    X Create post status 
         - ensure status is required
         - should have a default value 
-        - implement locking
+        - implement 'locking'
         - time stamp status change 
     - auditlog
     
@@ -20,7 +20,7 @@
     - Approval workflow
         - implement approval stages
     - SMS Sending -> link to approval or overtime input
-    - Administrate admin dashboard
+    X Administrate admin dashboard
     - Email summary to managers for approval
     - Needs to be documented if employee did not log the OT
     - Notify posters of change of status
