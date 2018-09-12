@@ -12,3 +12,6 @@
 !/log/.keep
 /tmp
 /.env
+
+# Exclude database configuration
+/config/database.yml
