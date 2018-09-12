@@ -1,21 +1,23 @@
 <div>
-  <h2><span>Employee:</span>
-        <%= @post.user.full_name %></h2>
+  <h2><%= @post.rationale %></h2>
 </div>
 
 <div class="well">
   <div>
-    <h3><span>Date:</span> <%= @post.date %></h3>
-  </div>
-  <div>
     <h3><span>Overtime Amount Requested:</span> <%= @post.overtime_request %></h3>
   </div>
+
   <div>
-    <h3><%= @post.rationale %></h3>
+    <h3><span>Employee:</span> <%= @post.user %></h3>
   </div>
+
+  <div>
+    <h3><span>Date:</span> <%= @post.date %></h3>
+  </div>
+
   <div>
     <h3><span>Current Stage of Approval:</span> <%= @post.status %></h3>
   </div>
 </div>
 
-<%= link_to 'Edit', edit_post_path(@post), class: 'btn btn-lg btn-primary' if policy(@post).update? %>
+<%= link_to 'Edit', edit_post_path(@post), class: 'btn btn-primary' if policy(@post).update? %>

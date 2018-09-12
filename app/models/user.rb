@@ -15,6 +15,7 @@ class User < ActiveRecord::Base
   validates :phone, length: { is: 10 }
 
   def full_name
-    last_name.upcase + ", " + first_name.upcase
+    myName = last_name.upcase + ", " + first_name.upcase
+    myName ||= 'not provided'
   end
 end
