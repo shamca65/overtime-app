@@ -258,6 +258,7 @@ DEPENDENCIES
   gritter (= 1.2.0)
   jbuilder (~> 2.0)
   jquery-rails
+  kaminari (~> 0.17.0)
   mysql2 (>= 0.3.13, < 0.5)
   puma (~> 3.4)
   pundit (~> 1.1)
