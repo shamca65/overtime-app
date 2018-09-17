@@ -26,6 +26,7 @@
     <orderEntry type="jdk" jdkName="RVM: ruby-2.5.0" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="addressable (v2.5.2, RVM: ruby-2.5.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="administrate (v0.10.0, RVM: ruby-2.5.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.12, RVM: ruby-2.5.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootstrap-sass (v3.3.7, RVM: ruby-2.5.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bourbon (v5.1.0, RVM: ruby-2.5.0) [gem]" level="application" />

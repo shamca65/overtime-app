@@ -11,5 +11,22 @@
       <user-name>root</user-name>
       <introspection-schemas>*:@</introspection-schemas>
     </data-source>
+    <data-source name="Rails Overtime: test" uuid="f19050e2-f1cc-4c4d-a7aa-09c74d5bc9cd">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>root</user-name>
+    </data-source>
+    <data-source name="Rails Overtime: production" uuid="32c20034-d73d-4998-9ca6-daca49db977b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>overtime</user-name>
+    </data-source>
+    <data-source name="Rails Overtime: development" uuid="0f60e7e0-7070-4dc2-8abf-fa920bb2ba68">
+      <database-info product="MySQL" version="8.0.12" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" family="MYSQL" exact-version="8.0.12">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper" />
+      <user-name>root</user-name>
+      <introspection-schemas>*:@</introspection-schemas>
+    </data-source>
   </component>
 </project>
