@@ -19,6 +19,7 @@ ENV APP_ROOT /workspace
 RUN mkdir -p $APP_ROOT
 WORKDIR $APP_ROOT
 COPY . $APP_ROOT
+RUN gem install bundler
 RUN bundle install
 #
 EXPOSE  3000
