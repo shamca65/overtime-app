@@ -127,7 +127,7 @@
     <session id="-418413349">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.9" value="2" />
@@ -188,7 +188,7 @@
         <entry file="file://$PROJECT_DIR$/app/policies/audit_log_policy.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -564,16 +564,15 @@
       <workItem from="1536772688064" duration="9624000" />
       <workItem from="1537122158083" duration="9282000" />
       <workItem from="1537209324867" duration="3812000" />
-      <workItem from="1537379787949" duration="212000" />
+      <workItem from="1537379787949" duration="243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108949000" />
+    <option name="totallyTimeSpent" value="108980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1097" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76036865" visible="true" weight="0.1799787" />
       <window_info id="Favorites" order="1" sideWeight="0.23963134" side_tool="true" weight="0.17518637" />
@@ -937,7 +936,7 @@
     <entry file="file://$PROJECT_DIR$/app/policies/audit_log_policy.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
