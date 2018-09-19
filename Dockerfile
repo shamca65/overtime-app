@@ -20,7 +20,7 @@ RUN mkdir -p $APP_ROOT
 WORKDIR $APP_ROOT
 COPY . $APP_ROOT
 RUN gem install bundler
-RUN gem install nokogiri -v '1.8.4' --source
+RUN gem install nokogiri -v '1.8.4'
 RUN bundle update
 #
 EXPOSE  3000
