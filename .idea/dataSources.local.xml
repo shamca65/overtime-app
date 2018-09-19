@@ -12,11 +12,11 @@
       <introspection-schemas>*:@</introspection-schemas>
     </data-source>
     <data-source name="Rails Overtime: test" uuid="f19050e2-f1cc-4c4d-a7aa-09c74d5bc9cd">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="MYSQL" exact-version="0.0" />
       <user-name>root</user-name>
     </data-source>
     <data-source name="Rails Overtime: production" uuid="32c20034-d73d-4998-9ca6-daca49db977b">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="MYSQL" exact-version="0.0" />
       <user-name>overtime</user-name>
     </data-source>
     <data-source name="Rails Overtime: development" uuid="0f60e7e0-7070-4dc2-8abf-fa920bb2ba68">
