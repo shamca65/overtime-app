@@ -20,7 +20,7 @@ RUN mkdir -p $APP_ROOT
 WORKDIR $APP_ROOT
 COPY . $APP_ROOT
 RUN gem install bundler
-RUN bundle install
+RUN bundle update
 #
 EXPOSE  3000
 CMD ["rails", "server", "-b", "0.0.0.0"]
