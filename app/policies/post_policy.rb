@@ -19,4 +19,8 @@ class PostPolicy < ApplicationPolicy
     record.approved?
   end
 
+  def approve?
+    admin?
+  end
+
 end

@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  before_action :set_post, only:[:show, :edit, :update, :destroy] #passes in id beforehand
+  before_action :set_post, only:[:show, :edit, :update, :destroy,:approve] #passes in id beforehand
 
   def index
     @posts = Post.posts_by(current_user).page(params[:page]).per(10)
@@ -35,6 +35,12 @@ class PostsController < ApplicationController
 
       end
 
+  end
+
+  def approve
+    authorize @post
+    @post.approved!
+    redirect_to root_path, notice: "The post has been approved"
   end
 
   def show
