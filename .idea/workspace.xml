@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5445157e-2785-43d0-b81b-774c1adc867f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spec/features/homepage_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/policies/post_policy.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/policies/post_policy.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/static/_pending_approval.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/static/_pending_approval.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tasks/notification.rake" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks/notification.rake" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -61,16 +58,16 @@
     <session id="-1364629267">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="34" />
+          <entry key="project.closed" value="36" />
           <entry key="project.open.time.0" value="6" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="9" />
-          <entry key="project.open.time.7" value="11" />
+          <entry key="project.open.time.7" value="12" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="36" />
+          <entry key="project.opened" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -81,7 +78,7 @@
           <entry key="gitignore" value="6" />
           <entry key="js" value="22" />
           <entry key="md" value="313" />
-          <entry key="rake" value="118" />
+          <entry key="rake" value="561" />
           <entry key="rb" value="8239" />
           <entry key="scss" value="177" />
           <entry key="txt" value="21" />
@@ -94,7 +91,7 @@
           <entry key="Markdown" value="313" />
           <entry key="PLAIN_TEXT" value="77" />
           <entry key="RHTML" value="2953" />
-          <entry key="Ruby" value="8574" />
+          <entry key="Ruby" value="9017" />
           <entry key="SCSS" value="177" />
           <entry key="YAML" value="4" />
         </counts>
@@ -108,8 +105,8 @@
           <entry key="js" value="1" />
           <entry key="md" value="10" />
           <entry key="pid" value="1" />
-          <entry key="rake" value="2" />
-          <entry key="rb" value="183" />
+          <entry key="rake" value="3" />
+          <entry key="rb" value="184" />
           <entry key="scss" value="4" />
           <entry key="sql" value="1" />
           <entry key="yml" value="3" />
@@ -121,7 +118,7 @@
           <entry key="Markdown" value="10" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="RHTML" value="53" />
-          <entry key="Ruby" value="191" />
+          <entry key="Ruby" value="193" />
           <entry key="SCSS" value="4" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="3" />
@@ -222,7 +219,7 @@
         <entry file="file://$PROJECT_DIR$/spec/features/homepage_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
-              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -239,13 +236,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
+            <state relative-caret-position="800">
               <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/policies/post_policy.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
@@ -254,10 +251,19 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/tasks/notification.rake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
+            <state relative-caret-position="840">
               <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
             </state>
           </provider>
@@ -299,7 +305,6 @@
         <option value="$PROJECT_DIR$/lib/sms_tool.rb" />
         <option value="$PROJECT_DIR$/lib/fake_sms.rb" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/lib/tasks/notification.rake" />
         <option value="$PROJECT_DIR$/spec/features/post_spec.rb" />
         <option value="$PROJECT_DIR$/spec/factories/users.rb" />
         <option value="$PROJECT_DIR$/spec/features/user_spec.rb" />
@@ -342,6 +347,7 @@
         <option value="$PROJECT_DIR$/spec/features/homepage_spec.rb" />
         <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
         <option value="$PROJECT_DIR$/app/policies/post_policy.rb" />
+        <option value="$PROJECT_DIR$/lib/tasks/notification.rake" />
       </list>
     </option>
   </component>
@@ -359,8 +365,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="78" />
-    <option name="y" value="36" />
+    <option name="x" value="44" />
+    <option name="y" value="23" />
     <option name="width" value="1746" />
     <option name="height" value="960" />
   </component>
@@ -440,7 +446,13 @@
             <path>
               <item name="Overtime" type="b2602c69:ProjectViewProjectNode" />
               <item name="Overtime" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Overtime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Overtime" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Overtime" type="b2602c69:ProjectViewProjectNode" />
@@ -638,18 +650,20 @@
       <workItem from="1537379787949" duration="243000" />
       <workItem from="1537380660853" duration="56000" />
       <workItem from="1537982115523" duration="33000" />
-      <workItem from="1537982173562" duration="5659000" />
+      <workItem from="1537982173562" duration="6926000" />
+      <workItem from="1538056336503" duration="4000" />
+      <workItem from="1538585928036" duration="1670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114728000" />
+    <option name="totallyTimeSpent" value="117669000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="78" y="36" width="1746" height="960" extended-state="0" />
+    <frame x="44" y="23" width="1746" height="960" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.76036865" visible="true" weight="0.20422535" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76036865" visible="true" weight="0.20892018" />
       <window_info id="Favorites" order="1" sideWeight="0.23963134" side_tool="true" weight="0.17518637" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32987553" />
@@ -662,7 +676,7 @@
       <window_info anchor="bottom" id="Structure" order="8" sideWeight="0.16986156" weight="0.23443983" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.83013844" side_tool="true" visible="true" weight="0.2272203" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.83013844" side_tool="true" visible="true" weight="0.272203" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50106496" side_tool="true" weight="0.328341" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32987553" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -711,13 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/notification.rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -847,13 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="37" column="84" lean-forward="true" selection-start-line="37" selection-end-line="37" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/audit_logs/_audit_log.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -944,13 +944,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/policies/audit_log_policy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -965,24 +958,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/static_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/policies/audit_log_policy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static/_pending_approval.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -993,6 +972,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static/_pending_approval.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/homepage_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1000,17 +993,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/homepage_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        <state relative-caret-position="800">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        <state relative-caret-position="840">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/static_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1018,6 +1025,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/notification.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
