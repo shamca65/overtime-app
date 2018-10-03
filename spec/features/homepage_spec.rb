@@ -14,4 +14,20 @@ describe 'Homepage' do
 
   end
 
+  describe 'Homepage' do
+    it 'allows the employee to change the audit log status from the home page' do
+      audit_log = FactoryBot.create(:post)
+      user = FactoryBot.create(:user)
+      login_as(user, :scope => :user)
+
+      audit_log.update(user_id: user.id)
+
+      visit root_path
+
+      # click on button with id similar to confirm_01
+      click_on("confirm_#{audit_log.id}")
+
+      expect(post.reload.status).to eq('confirmed')
+
+    end
 end

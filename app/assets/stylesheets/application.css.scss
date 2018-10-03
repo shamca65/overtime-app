@@ -3,42 +3,10 @@
 @import "posts.scss";
 @import "gritter";
 @import "bourbon";
+@import "admin_homepage.css";
+@import "employee_homepage.css";
 
 .custom-nav {
-  margin-top: 13px;
+  margin-top: 15px;
 }
 
-.pending-homepage {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background-color: #E3E3E3;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  padding: 20px;
-}
-
-.pending-submissions {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-
-.homepage-block {
-  background-color: #1D3C91;
-  color: white;
-  margin: 12px 42px 12px 42px;
-  padding: 15px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-
-.pending-details-title {
-  font-weight: bold;
-}
-
-.pending-details-text {
-  font-weight: normal;
-  font-style: italic;
-}

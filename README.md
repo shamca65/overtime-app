@@ -8,11 +8,11 @@
     X AdminUser -> STI from User on 'type' field
     - Sorting 
     X Create post status 
-        - ensure status is required
-        - should have a default value 
-        - implement 'locking'
-        - time stamp status change 
-    - auditlog
+        X ensure status is required
+        X should have a default value 
+        X implement 'locking'
+        X time stamp status change 
+    X auditlog
     
 ## Features
     X Block non-admin & guest users (Administrate)
@@ -24,15 +24,13 @@
     - Email summary to managers for approval
     - Needs to be documented if employee did not log the OT
     - Notify posters of change of status
-    - 
 
 ## UI:
     x Bootstrap -> form formatting
-    - Icons from Awesome
+    X Icons from Awesome
     X Add full_name for users
     X Warning notice for deletes
    
  
 ## Refactoring
-    - Refactor user association integration test in post_spec
-    - Refactor forms for admin user with status
+    - scope of admin_types is hacked in for now. Need to do it properly
