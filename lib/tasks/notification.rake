@@ -4,7 +4,8 @@ namespace :notification do
     if Time.now.sunday?
       employees = Employee.all
       notification_message = "Please log in and check your overtime for last week: #{request.domain}"
-      employees.each do |emp|
+      employees.each do |employee|
+        AuditLog.create!(User_id: employee.id)
         SmsTool.send_sms(number: employee.phone, message: notification_message)
       end
     end
