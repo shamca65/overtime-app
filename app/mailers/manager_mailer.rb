@@ -4,4 +4,4 @@ class ManagerMailer < ApplicationMailer
     @manager = manager
     mail(to: manager.email, subject: 'Daily OT Requests')
   end
-
+end
