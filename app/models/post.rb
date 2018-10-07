@@ -16,12 +16,12 @@ class Post < ActiveRecord::Base
   private
 
   def confirm_audit_log
-    audit_log = AuditLog.where(user_id: self.user_id, start_date: (self.data - 7.days..self.date)).last
+    audit_log = AuditLog.where(user_id: self.user_id, start_date: (self.date - 7.days..self.date)).last
     audit_log.confirmed! if audit_log
   end
 
   def un_confirm_audit_log
-    audit_log = AuditLog.where(user_id: self.user_id, start_date: (self.data - 7.days..self.date)).last
+    audit_log = AuditLog.where(user_id: self.user_id, start_date: (self.date - 7.days..self.date)).last
     audit_log.pending! if audit_log
   end
 
