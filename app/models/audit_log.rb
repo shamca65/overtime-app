@@ -7,7 +7,7 @@ class AuditLog < ActiveRecord::Base
   validates_presence_of :user_id, :status, :start_date
 
   after_initialize :set_defaults
-  before_update :set_end_date :confirmed?
+  before_update :set_end_date, if: :confirmed?
 
   private
 
@@ -18,4 +18,5 @@ class AuditLog < ActiveRecord::Base
   def set_defaults
     self.start_date ||= Date.today - 6.days
   end
+
 end
