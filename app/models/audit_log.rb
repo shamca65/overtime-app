@@ -9,6 +9,8 @@ class AuditLog < ActiveRecord::Base
   after_initialize :set_defaults
   before_update :set_end_date, if: :confirmed?
 
+  scope :by_start_date, -> {order('start_date DESC')}
+
   private
 
   def set_end_date
