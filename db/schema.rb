@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181009155656) do
+ActiveRecord::Schema.define(version: 20181009161712) do
 
   create_table "audit_logs", force: :cascade do |t|
     t.integer  "user_id",    limit: 4
@@ -61,6 +61,8 @@ ActiveRecord::Schema.define(version: 20181009155656) do
     t.datetime "updated_at",                                      null: false
     t.string   "type",                   limit: 255
     t.string   "phone",                  limit: 255
+    t.integer  "ssn",                    limit: 4
+    t.string   "company",                limit: 255
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
