@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180910192428) do
+ActiveRecord::Schema.define(version: 20181009155656) do
 
   create_table "audit_logs", force: :cascade do |t|
     t.integer  "user_id",    limit: 4
@@ -23,6 +23,13 @@ ActiveRecord::Schema.define(version: 20180910192428) do
   end
 
   add_index "audit_logs", ["user_id"], name: "index_audit_logs_on_user_id", using: :btree
+
+  create_table "hands", force: :cascade do |t|
+    t.integer  "hand_id",    limit: 4
+    t.integer  "user_id",    limit: 4
+    t.datetime "created_at",           null: false
+    t.datetime "updated_at",           null: false
+  end
 
   create_table "posts", force: :cascade do |t|
     t.date     "date"
