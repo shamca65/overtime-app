@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181009161712) do
+ActiveRecord::Schema.define(version: 20181009175327) do
 
   create_table "audit_logs", force: :cascade do |t|
     t.integer  "user_id",    limit: 4
@@ -33,12 +33,12 @@ ActiveRecord::Schema.define(version: 20181009161712) do
 
   create_table "posts", force: :cascade do |t|
     t.date     "date"
-    t.text     "rationale",        limit: 65535
-    t.datetime "created_at",                                                null: false
-    t.datetime "updated_at",                                                null: false
-    t.integer  "user_id",          limit: 4
-    t.integer  "status",           limit: 4,                    default: 0
-    t.decimal  "overtime_request",               precision: 10, default: 0
+    t.text     "rationale",   limit: 65535
+    t.datetime "created_at",                                           null: false
+    t.datetime "updated_at",                                           null: false
+    t.integer  "user_id",     limit: 4
+    t.integer  "status",      limit: 4,                    default: 0
+    t.decimal  "daily_hours",               precision: 10, default: 0
   end
 
   add_index "posts", ["user_id"], name: "index_posts_on_user_id", using: :btree
