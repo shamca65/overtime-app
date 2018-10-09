@@ -4,7 +4,7 @@ describe 'navigate' do
   let(:user) { FactoryBot.create(:user) }
 
   let(:post) do
-    Post.create(date: Date.today, rationale: "Rationale", user_id: user.id, overtime_request: 3.5)
+    Post.create(date: Date.today, rationale: "Rationale", user_id: user.id, daily_hours: 3.5)
   end
 
   before do
@@ -39,7 +39,7 @@ describe 'navigate' do
                                password_confirmation: "asdfasdf",
                                phone: '5196436458')
 
-      post_from_other_user = Post.create(date: Date.today, rationale: "This post shouldn't be seen", user_id: other_user.id, overtime_request: 3.5)
+      post_from_other_user = Post.create(date: Date.today, rationale: "This post shouldn't be seen", user_id: other_user.id, daily_hours: 3.5)
 
       visit posts_path
 
@@ -63,7 +63,7 @@ describe 'navigate' do
       delete_user = FactoryBot.create(:user)
       login_as(delete_user, :scope => :user)
 
-      post_to_delete = Post.create(date: Date.today, rationale: 'asdf', user_id: delete_user.id, overtime_request: 3.5)
+      post_to_delete = Post.create(date: Date.today, rationale: 'asdf', user_id: delete_user.id, daily_hours: 3.5)
 
       visit posts_path
 
@@ -84,7 +84,7 @@ describe 'navigate' do
     it 'can be created from new form page' do
       fill_in 'post[date]', with: Date.today
       fill_in 'post[rationale]', with: "Some rationale"
-      fill_in 'post[overtime_request]', with: 1.3
+      fill_in 'post[daily_hours]', with: 1.3
       click_on "Save"
 
       expect(page).to have_content("Some rationale")
